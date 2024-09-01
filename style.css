@@ -1,0 +1,88 @@
+#heading{
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+    color: white;
+}
+
+#info{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+#inputDiv{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    height: 10vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#startButton{
+    font-size: 2rem;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background-color: hsl(39, 99%, 46%);
+}
+
+
+#input{
+    height: 40px;
+    width: 250px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+#submit{
+    margin-left: 3px;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: hsl(39, 99%, 46%);
+    transition: transform 0.25s box-shadow 0.5s;
+}
+
+#submit:hover{
+    transform: translateY(-2px);
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.616); 
+}
+
+#buttonsDiv{
+    text-align: center;
+}
+
+.buttons{
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    margin-left: 5px;
+    margin-left: 5px;
+    background-color:  hsl(39, 99%, 46%);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: white;
+    transition: backrgound-color 2s;
+}
+
+.buttons:hover{
+    background-color: hsl(39, 85%, 51%);
+}
+
+#hints{
+    float: left;
+}   
+
+body{
+    background-color: hsl(39, 100%, 50%);
+}
